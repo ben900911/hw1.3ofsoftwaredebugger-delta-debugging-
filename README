@@ -1,0 +1,24 @@
+此為軟體除錯課程(交通大學資訊所)的作業1.3(HW1.3)
+
+使用方式如下:
+1.將xmlproc之內容下載(xmlproc.tar)
+
+2.在xmlproc資料夾底下執行delta
+
+ex:"perl delta -test=testitt -quiet -cp_minimal=mins.xml < urls.xml"
+
+其中:
+delta是實現delta debugging的perl程式
+testitt是協助delta完成的bash script
+urls.xml是我們匯入的fail input
+而產生的mins.xml就是我們要的簡化fail input
+
+依照執行結果，mins.xml最後只有一行:
+
+
+<title>Topic Guides &#x04a; python.org</title>
+
+而以上為本作業解答
+
+
+0356160 何禮亦
